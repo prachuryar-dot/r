@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  font-family: var(--font-montserrat), sans-serif;
+}
+
+.bg-home-banner-gradient {
+  background: linear-gradient(251.54deg, #2a2e37 0%, #22252f 100%);
+}
+
+.bg-home-banner-text-gradient {
+  /* Primary-color/gradient */
+  background: linear-gradient(267.3deg, #cdab6b 0.17%, #a47f4f 49.47%, #a4824b 98.76%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.bg-home-feature-card {
+  background: radial-gradient(
+    100% 100% at 0% 0%,
+    rgba(164, 127, 77, 0.16) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  backdrop-filter: blur(0.5px);
+  border: 1px solid;
+  border-image-source: linear-gradient(
+    288.93deg,
+    rgba(166, 131, 77, 0.16) 0.9%,
+    rgba(166, 131, 77, 0.64) 99.47%
+  );
+}
+
+.bg-home-loans-section {
+  background: linear-gradient(86.45deg, #77797f 0.05%, #9498a2 113.83%);
+}
+
+.bg-legacy-section {
+  background: linear-gradient(251.54deg, #2a2e37 0%, #22252f 100%);
+}
+
+.bg-services-section {
+  background: linear-gradient(251.54deg, #2a2e37 0%, #22252f 100%);
+}
+
+.bg-grand-launch {
+  background: linear-gradient(267.3deg, #cdab6b 0.17%, #a47f4f 49.47%, #a4824b 98.76%);
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox, Safari 18.2+, Chromium 121+ */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Older Safari and Chromium */
+}
+
+/* Smooth scrolling for tab navigation */
+.scroll-smooth {
+  scroll-behavior: smooth;
+}
+
+/* Ensure proper touch scrolling on mobile */
+.overflow-x-auto {
+  -webkit-overflow-scrolling: touch;
+}
+
+.card-slider-highlight-gradient {
+  background: linear-gradient(267.3deg, #cdab6b 0.17%, #a47f4f 49.47%, #a4824b 98.76%);
+}
+
+@keyframes zoom-in-95 {
+  0% {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.animate-in {
+  animation-fill-mode: both;
+}

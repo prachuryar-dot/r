@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="180" height="180"><svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="180" height="180" fill="white"></rect>
+<rect width="180" height="180" fill="url(#paint0_linear_1346_10083)"></rect>
+<path d="M44.8181 136.8L70.5059 62.3967L94.9704 136.8H117.6L82.7381 43.7959C79.0684 33.4014 62.5549 33.4014 58.8852 43.7959L22.8 136.8H44.8181Z" fill="#A4824B"></path>
+<path d="M154.216 116.651C156.2 118.242 156.862 120.893 156.862 125.665C156.862 130.437 156.2 133.088 154.216 134.679C152.232 136.27 148.264 136.8 142.973 136.8C137.021 136.8 133.714 135.74 132.391 134.149C130.407 132.558 129.746 129.907 129.746 125.135C129.746 120.363 130.407 117.712 132.391 116.121C134.375 115.06 137.682 114 142.973 114C148.925 114 151.571 115.591 154.216 116.651Z" fill="#A4824B"></path>
+<defs>
+<linearGradient id="SvgjsLinearGradient1004" x1="180" y1="1.60694e-05" x2="-36.0159" y2="72.112" gradientUnits="userSpaceOnUse">
+<stop stop-color="#2A2E37"></stop>
+<stop offset="1" stop-color="#22252F"></stop>
+</linearGradient>
+</defs>
+</svg><style>@media (prefers-color-scheme: light) { :root { filter: none; } }
+@media (prefers-color-scheme: dark) { :root { filter: none; } }
+</style></svg>
