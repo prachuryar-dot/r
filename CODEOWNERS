@@ -1,0 +1,29 @@
+# Global code owners
+* @senior-developer @tech-lead
+
+# Frontend components
+src/components/ @frontend-team
+src/styles/ @frontend-team
+src/app/ @frontend-team
+
+# Configuration files
+.gitlab-ci.yml @devops-team
+package.json @devops-team
+tailwind.config.js @frontend-team
+
+# Documentation
+*.md @tech-lead
+STORYBOOK_GUIDELINES.md @frontend-team
+BRANCHING_STRATEGY.md @tech-lead
+
+# Storybook
+.storybook/ @frontend-team
+src/**/*.stories.tsx @frontend-team
+
+# Tests
+src/**/*.test.tsx @frontend-team
+src/**/*.spec.tsx @frontend-team
+jest.config.js @devops-team
+
+# TypeScript configuration
+tsconfig.json @devops-team 
